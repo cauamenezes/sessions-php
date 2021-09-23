@@ -43,13 +43,13 @@ function verificarLogin()
     if ($_SESSION["id"] != session_id() || (empty($_SESSION["id"]))) {
 
         header("location: index.php");
-
     }
 }
 
-function finalizarLogin() {
-    session_unset();//limpa todas as variáveis da sessão
-    session_destroy();//destrói a sessão ativa
+function finalizarLogin()
+{
+    session_unset(); //limpa todas as variáveis da sessão
+    session_destroy(); //destrói a sessão ativa
 
     header("location: index.php");
 }
