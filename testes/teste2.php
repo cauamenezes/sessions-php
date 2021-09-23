@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Recuperando a sessão criada
 session_start();

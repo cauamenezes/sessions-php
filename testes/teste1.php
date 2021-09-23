@@ -11,5 +11,3 @@ $_SESSION["nome"] = "Cauã Menezes da Silva";
 
 $nome = "Cauã Menezes da Silva";
 echo $nome;
-
-?>
